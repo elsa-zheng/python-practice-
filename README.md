@@ -1,13 +1,13 @@
-print("HEELLOOO! welcome to the adventure game!")
-print("you wake up in a mysterious cave…")
-print("what do you do?")
-print("1. go left")
-print("2. go right")
+    print("HEELLOOO! welcome to the adventure game!")
+    print("you wake up in a mysterious cave…")
+    print("what do you do?")
+    print("1. go left")
+    print("2. go right")
 
-choice = input("choose between 1 and 2 : ")
-if choice == "1":
+    choice = input("choose between 1 and 2 : ")
+    if choice == "1":
     print("oops you died by being eaten by a dragon")
-if choice == "2":
+    if choice == "2":
     print("okayy level up!!")
     while True:
         print("you now have 2 choices")
@@ -27,12 +27,12 @@ if choice == "2":
         print(f"ok {name} you may leave now;)nothing to see here lallalalalalal")
         
         
-print("NOW GUESS THE SECRET NUMBER")
-import random
-attempts = 0
-secret = random.randint(1,20)
-while True:
-    guess = int(input("enter ur number: "))
+    print("NOW GUESS THE SECRET NUMBER")
+    import random
+    attempts = 0
+    secret = random.randint(1,20)
+    while True:
+     guess = int(input("enter ur number: "))
     
     attempts += 1
     
